@@ -1,0 +1,48 @@
+body {
+  font-family: "Lato";
+  background-color: yellow;
+  font-size: 50px;
+}
+p {
+  font-size: 20px;
+}
+
+.main {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: "Indie Flower";
+}
+
+#todo {
+  border: none;
+  height: 40px;
+  width: 500px;
+  border-radius: 2px;
+  font-size: 20px;
+}
+#todo:focus {
+  outline: none;
+}
+
+#buttom {
+  border: none;
+  background-color: lightseagreen;
+  height: 40px;
+  border-radius: 2px;
+  font-family: "Lato";
+  font-size: 20px;
+}
+
+#todo-list {
+  text-decoration: none;
+  list-style-type: circle;
+}
+
+li {
+  max-width: 300px;
+  margin: 0 auto;
+  font-size: 20px;
+}
